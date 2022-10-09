@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+/* Header start */
+
+.bg {
+	background-color: #c1c2c2;
+}
+header {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #064f79;
+}
+
+.text-center {
+	margin-top: 1px;
+	margin-bottom: 1px;
+	align-items: center;
+	text-align: center;
+}
+
+.title {
+	text-align: center;
+}
+
+a {
+	color: white;
+}
+
+.nav-links {
+	list-style: none;
+}
+
+.nav-links li {
+	display: inline-block;
+	padding: 0 1.25rem;
+}
+
+.nav-links li a {
+	text-decoration: none;
+	font-family: "Montserrat", sans-serif;
+	font-size: 1rem;
+	transition: all 0.5s ease 0s;
+}
+
+.nav-links li a:hover {
+	color: rgba(0, 173, 181, 0.8);
+}
+
+/* header end */
+
+/* item dashboard start */
+.grid-container {
+	display: grid;
+	gap: 50px;
+	grid-template-columns: auto auto auto;
+	margin: 30px 0;
+	padding: 50px;
+	/* background-color: #4ab8d6; */
+	color: #4ab8d6;
+}
+
+
+.grid-item {
+	color: #fff;
+	background-color: #6ab7dd;
+	padding: 100px 10px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.pic{
+	vertical-align: middle;
+	position:center;
+}
+
+/* item dashboard end */
+/* item minuman start */
+.grid-container2 {
+	display: grid;
+	grid-template-areas: 'myArea myArea myArea myArea myArea myArea myArea';
+	gap: 5px;
+	margin: 30px 0;
+	padding: 10px;
+}
+
+.grid-container2>div {
+	background-color: #4ab8d6;
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+}
+
+/* item minuman end */
+
+/* CSS for Footer */
+.footer {
+	align-items: flex-end;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #064f79;
+	color: #fff;
+	height: 15%;
+}
+
+/* css more */
+
+.container-x{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+img{
+	height:300px;
+	width:450px;
+	margin:15px;
+	transition:all 1s;
+}
+
+/* h1{
+	font-family:comic sans ms;
+	border-bottom:2px solid pink;
+	width:400px;
+	text-align:center;
+	font-size:3em;
+	border-right:2px solid pink;
+	box-shadow:4px 4px 5px #888888;
+} */
+
+body{
+	background-color:rgba(120, 101, 101,0.2);
+}
+
+img:hover{
+	transform:scale(1.1);
+	/*transform:skewX(10deg);*/
+}
+
+.grid-container:hover{
+	transform:scale(1.1);
+}
+
+
+
